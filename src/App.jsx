@@ -5,6 +5,7 @@ import LoginForm from './components/LoginForm';
 import AdminDashboard from './AdminDashboard';
 
 function App() {
+  //main app
   return (
     <>
     <div className="container">
@@ -16,7 +17,7 @@ function App() {
     </BrowserRouter>
     </div>
     </>
-  );
+  ); 
 }
 
 export default App;
