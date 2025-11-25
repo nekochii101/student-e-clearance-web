@@ -10,7 +10,7 @@ function RegistrationForm() {
   const navigate = useNavigate();
 
  const handleLogin = () =>{
-  navigate('/admindashboard')
+  navigate('/admindashboard') 
  }
 
   return (
