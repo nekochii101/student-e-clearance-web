@@ -5,7 +5,6 @@ import LoginForm from './components/LoginForm';
 import AdminDashboard from './AdminDashboard';
 
 function App() {
-  //main app
   return (
     <>
     <div className="container">
