@@ -1,0 +1,58 @@
+.container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.125);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.content {
+        background: white;
+        padding: 20px;
+        border-radius: 8px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        position: relative;
+        left: 42%;
+        bottom: 28%;
+        border: 3px solid rgba(116, 173, 233, 0.779);
+      }
+    .close {
+        color: black;
+        position: fixed;
+        cursor: pointer;
+        font-size: 19px;
+        right: 19px;
+        top: 2px;
+    }
+.email {
+    color: black;
+}
+.profile {
+    width: 78px;
+    height: auto;
+    margin-bottom: 34px;
+    margin-top: 9px;
+}
+.office-container {
+    background-color: rgba(0, 0, 0, 0.207);
+    width: 99%;
+    height: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn {
+    background-color: rgba(0, 110, 255, 0.875);
+}
+.office{
+    color: black;
+    
+}

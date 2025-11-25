@@ -1,0 +1,230 @@
+.data-sorting-container {
+    display: flex;
+    flex-direction:row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.data-sorting-header {
+    color: rgb(17, 17, 17)
+}
+
+.m-cont-container{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+
+}
+.sorting-container{
+    width: 96%;
+    height: 34px;
+    /* background-color: white; */
+    border-radius: 8px;
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    flex-direction: row;
+    padding: 6px;
+}
+
+.sort-header{
+    color: rgb(15, 25, 218);
+    margin: 23px;
+    white-space: nowrap;
+    font-size: 22px;
+    margin-bottom: 19px;
+}
+
+.btn-group{
+    margin-top: 23px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items:center;
+}
+/* Status Filtereing */
+.m-cont-btn{
+    width: 95;
+    height: 34px;
+    font-size: 18px;
+    text-align: center;
+    white-space: nowrap;
+    margin-bottom: 18px;
+    margin-right: 3px;
+    border-radius: 12px;
+    background-color: transparent;
+    border-style: none;
+    background-color: #2828f52e;
+    color: #fcfcfc;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.m-cont-btn.active{
+    width: 95px;
+    height: 34px;
+    font-size: 18px;
+    text-align: center;
+    white-space: nowrap;
+    text-align: center;
+    margin-bottom: 18px;
+    margin-right: 6px;
+    border-radius: 12px;
+    background-color: transparent;
+    border-style: none;
+    background-color: #2828f5;
+    color: #fcfcfc;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+/* Course Filtereing */
+.m-cont-btn-c{
+    width: 65;
+    height: 34px;
+    font-size: 18px;
+    text-align: center;
+    white-space: nowrap;
+    margin-bottom: 18px;
+    margin-right: 3px;
+    border-radius: 12px;
+    background-color: transparent;
+    border-style: none;
+    background-color: #2828f52e;
+    color: #fcfcfc;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.m-cont-btn-c.active{
+    width: 65px;
+    height: 34px;
+    font-size: 18px;
+    text-align: center;
+    white-space: nowrap;
+    text-align: center;
+    margin-bottom: 18px;
+    margin-right: 6px;
+    border-radius: 12px;
+    background-color: transparent;
+    border-style: none;
+    background-color: #2828f5;
+    color: #fcfcfc;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.m-cont-btn-close{
+    width: 38px;
+    height: 28px;
+    margin-bottom: 18px;
+    margin-right: 3px;
+    border-radius: 12px;
+    background-color: transparent;
+    border-style: none;
+    background-color: #2828f52e;
+    color: #fcfcfc;
+    font-weight: 700;
+}
+
+
+
+/* Major Filterting */
+.m-cont-btn-fixed-m{
+    width: 64px;
+    height: 34px;
+        font-size: 18px;
+    text-align: center;
+    white-space: nowrap;
+    position: relative;
+    margin-top: 5px;
+    margin-right: 3px;
+    border-radius: 12px;
+    background-color: transparent;
+    border-style: none;
+    background-color: #2828f52e;
+    color: #fcfcfc;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.m-cont-btn-fixed-m.active{
+    width: 64px;
+    height: 34px;
+    font-size: 18px;
+    text-align: center;
+    white-space: nowrap;
+    margin-top: 5px;
+    margin-right: 3px;
+    border-radius: 12px;
+    background-color: transparent;
+    border-style: none;
+    background-color: #2828f5;
+    color: #fcfcfc;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+/* Year Filterting */
+.m-cont-btn-fixed-y{
+    width: 94px;
+    height: 34px;
+        font-size: 18px;
+    text-align: center;
+    white-space: nowrap;
+    position: relative;
+    margin-top: 5px;
+    margin-right: 3px;
+    border-radius: 12px;
+    background-color: transparent;
+    border-style: none;
+    background-color: #2828f52e;
+    color: #fcfcfc;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.m-cont-btn-fixed-y.active{
+    width: 94px;
+    height: 34px;
+    font-size: 18px;
+    text-align: center;
+    white-space: nowrap;
+    margin-top: 5px;
+    margin-right: 3px;
+    border-radius: 12px;
+    background-color: transparent;
+    border-style: none;
+    background-color: #2828f5;
+    color: #fcfcfc;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.m-cont-btn-close-fixed{
+    width: 38px;
+    height: 28px;
+    position: relative;
+    margin-top: 5px;
+    margin-right: 3px;
+    border-radius: 12px;
+    background-color: transparent;
+    border-style: none;
+    background-color: #2828f52e;
+    color: #fcfcfc;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+
+
+
+
+.department-sorting-container{
+    display: flex; 
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    /* position: absolute; */
+    left: 520px;
+}

@@ -1,0 +1,118 @@
+.vq-container-overlay {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-color: rgba(0, 0, 0, 0.5);
+      display: flex;
+      align-items: center;
+      justify-content: center;    
+      z-index: 0;  
+}
+
+.vq-container {
+        background: white;
+        border-radius: 8px;
+        width: 65%;
+        height: 470px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+}
+
+.vq-cancel-btn {
+  position: absolute;
+  cursor: pointer;
+  background: none;
+  border: none;
+  padding: 0;
+  margin-top: 12px;
+  margin-left: 875px;
+}
+
+.vq-cancel-btn img {
+  display: block;
+  width: 19px; /* adjust */
+  height: 19px;
+  pointer-events: none; /* optional */
+}
+
+
+.vq-profile-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    position: relative;
+    margin-right: 500px;
+    bottom: 13px;
+}
+
+.vq-profile-pic {
+    width: 52px;
+    height: auto;
+    margin-right: 5px;
+    margin-bottom: 12px;
+}
+
+.vp-txtcluser{
+    position: relative;
+}
+
+.vq-fname {
+    color: black;
+    margin-top: 32px;
+    font-size: 23px;
+    font-weight: 600;
+}
+
+.vq-course {
+    position: relative;
+    bottom: 32px;
+    color: black;
+}
+
+.view-content {
+    background-color: rgba(0, 7, 17, 0.35);
+    width: 96%;
+    height: 470px;
+    position:relative;
+    bottom: 42px;
+    overflow: auto;
+    border-radius: 12px;
+}
+
+
+
+
+
+.vq-btn-cluster {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.vq-btn {
+    background-color: rgba(7, 69, 135, 0.499);
+    height: 42px;
+    width: 120px;
+    border-radius: 8px;
+    overlay: none;
+    position: relative;
+    bottom: 16px;
+    margin-right: 8px;
+    border-color: #f0f8ff00;
+}
+
+.vq-btn-save {
+    background-color: rgba(7, 84, 167, 0.867);
+    height: 42px;
+    width: 120px;
+    border-radius: 8px;
+    overlay: none;
+    position: relative;
+    bottom: 16px;
+    border-color: #f0f8ff00;
+    margin-left: 500px;
+}

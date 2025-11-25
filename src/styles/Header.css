@@ -1,0 +1,57 @@
+.header-container{
+  position: fixed;
+  top: 0;
+  margin: 9px;
+  width: 98%;
+  height: 25px;
+}
+
+.header-content {
+  left: 0;
+  right: 0;
+  z-index: 10;
+  display: flex;
+  height: 35px;
+  padding: 10px;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(to right, rgb(59, 157, 223) ,#aeceff, #9bbcee);
+  border: 2px solid rgba(30, 120, 215, 0.933);
+  border-radius: 8px;
+}
+
+
+.navigation-menu {
+  justify-content: space-around;
+  margin-left: 190px;
+}
+
+.r-link {
+  color: #fefe;
+  text-decoration: none;
+  margin: 12px;
+  font-size: 18px;
+}
+
+
+.logoTitle {
+  display: flex;
+  flex-direction: row;
+  align-items: center;     /* vertically center them */
+  width: 645px
+}
+
+.occ-logo {
+  width: 45px;   /* adjust as needed */
+  height: auto;
+}
+.h-title {
+    color: #fefe;
+    font-size: 48;
+}
+
+.r-link {
+    color: black;
+    font-weight: 600;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

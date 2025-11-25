@@ -1,0 +1,143 @@
+.login-container{
+    display: flex;
+    justify-content: center;   
+    align-items: center;  
+    padding: 2px;     
+}
+.login-opacity {
+    display: flex;
+    width: 70%;
+    height: 560px;
+    background-color: rgba(1, 8, 18, 0.437);
+    border-radius: 14px;
+}
+
+.login-content-a {
+    width: 420px;
+    height: 540px;
+    background-color: rgba(3, 72, 136, 0.795); 
+    display: flex;  
+    flex-direction: column;
+    align-items: center;
+    margin-left: 7px;
+    border-radius: 12px;
+}
+
+.login-content-b {
+    width: 480px;
+    height: 540px;
+    background-color: rgba(115, 146, 176, 0);
+    border-radius: 14px;
+    margin-top: 74px;
+    margin-left: 63px;
+    flex-direction: row;
+}
+
+.header{
+    margin-bottom: 42px;
+}
+.header-a{
+    width: 323px;
+    margin-bottom: 42px;
+}
+
+.logo-a {
+    margin-top: 53px;
+    width: 160px;
+    height: auto;
+}
+
+.recognition {
+    position:relative;
+    top: 95px;
+}
+.recognition-cont {
+    font-size: 13px;
+}
+.forms {
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items: flex-start;
+    margin-left: 18%;
+}
+.f-label{
+    color:rgb(199, 214, 255);
+    font-weight: 700;
+    font-size: 23px;
+}
+.inputs{
+    background-color: rgb(196, 218, 246);
+    width: 280px;
+    height: 32px;
+    border: none;
+    border-radius: 8px;
+    padding: 4px;
+    font-size: 21px;
+    padding-left: 12px;
+    color:rgb(7, 40, 130);
+}
+.btn{
+    position:  relative;
+    margin-top: 12px;
+    margin-left: 18%;
+    width: 148px;
+    height: 38px;
+    background-color: rgb(2, 179, 255);
+    border-color: rgb(255, 255, 255);
+    font-weight: 800;
+    border-radius: 12px;
+    border-style: none;
+    cursor: pointer;
+}
+
+
+
+.btn-action {
+  display: flex;
+  gap: -1px;    
+  flex-direction: column;  
+  align-items: center;  
+  position: relative;
+  margin-right: 22px;
+}
+
+.divider {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    gap: 12px;
+}
+
+hr {
+    width: 120px;
+}
+
+.btn-transparent{
+    background-color: transparent;
+    border: none;
+    text-decoration: underline;
+    cursor: pointer;
+    color: rgb(252, 252, 253);
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.6);
+}
+
+.checkbox-cont {
+    margin-top: 53px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.checkbox {
+    width: 17px;
+    height: 17px;
+    position: relative;
+    top: 1px;
+}
+
+.tas {
+    font-size: 15px;
+}

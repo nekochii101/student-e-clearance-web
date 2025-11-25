@@ -1,0 +1,72 @@
+import React, { useState } from "react";
+import { useNavigate } from "react-router-dom";
+
+import Logo from "../assets/img/occ-logo.png";
+import "../styles/LoginForm.css";
+
+function RegistrationForm() {
+  const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
+  const navigate = useNavigate();
+
+ const handleLogin = () =>{
+  navigate('/admindashboard')
+ }
+
+  return (
+    <div className="login-opacity">
+      <div className="login-container">
+        <div className="login-content-a">
+          <img src={Logo} className="logo-a" alt="Logo" />
+          <h1 className="header-a">Student E-Clearance System</h1>
+          <div className="recognition">
+            <p className="recognition-cont">
+              Developed by <b>Raffy Sabella, Rixjun Banawan</b> Designed by{" "}
+              <b>Jonalyn Ihong, Christopher Rey Namoc</b>
+              <i> © 2025 All Rights Reserved</i>
+            </p>
+          </div>
+        </div>
+
+        <div className="login-content-b">
+          <h1 className="header">Admin Login</h1>
+          <form onSubmit={handleLogin}>
+            <div className="forms">
+              <label className="f-label">Email</label>
+              <input
+                type="email"
+                className="inputs"
+              
+              />
+              <br />
+              <label className="f-label">Password</label>
+              <input
+                type="password"
+                className="inputs"
+              />
+              <br />
+              <button className="btn" type="submit">
+                Log In
+              </button>
+            </div>
+          </form>
+
+          <div className="btn-action">
+            <div className="divider">
+              <hr />
+              <b>or</b>
+              <hr />
+            </div>
+            <button className="btn-transparent">Register Account</button>
+            <div className="checkbox-cont">
+              <input type="checkbox" className="checkbox" />
+              <b className="tas">I agree to the terms and service</b>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+export default RegistrationForm;

@@ -1,0 +1,165 @@
+.nav-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin-left: 0;
+    background-color: rgba(0, 0, 0, 0.125);
+    display: flex;
+    align-items: center;
+    animation-name: slidein;
+    animation-duration: 1s;
+}
+
+.nav-container::after {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin-left: 0;
+    background-color: rgba(0, 0, 0, 0.125);
+    display: flex;
+    align-items: center;
+    animation-name: slide;
+    animation-duration: 1s;
+}
+
+@keyframes slidein {
+    0% {margin-left: -330px;}
+    100% {margin-left: 0;}
+}
+
+.nav-content {
+        background: rgba(56, 82, 144, 0.962);
+        height: 100%;
+        width: 23%;
+        border-bottom-right-radius: 8px;
+        border-top-right-radius: 8px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        position: relative;
+        left: 0;
+}
+
+.nav-header-dashboard{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-logo {
+    width: 123px;
+}
+
+.back-container {
+    width: 100%;
+    display: flex;
+    justify-content:right;
+    margin: 8px;
+    margin-right: 23px;
+}
+
+.back-btn {
+        width: 29px;
+        height: auto;
+        fill: #fefe;
+        filter: invert(100%) brightness(200%);
+}
+
+    
+.nav-btn {
+   
+    background-color: transparent;
+    width: 320px;
+    height: 42px;
+    font-size: 18px;
+    display: flex;
+    justify-content:left;
+    align-items: center;
+    border: none;
+}
+
+.div-cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 12px;
+}
+
+.div-header{
+    color: rgb(210, 235, 231);
+    font-size: 18px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+
+.hr-div {
+    width: 90px;
+    position: relative;
+    bottom: 3;
+}
+
+
+.nav-btn:hover {
+   
+    background-color: rgba(0, 0, 0, 0.138);
+    width: 320px;
+    height: 42px;
+    font-size: 18px;
+    display: flex;
+    justify-content:left;
+    align-items: center;
+    border: none;
+}
+
+.profile-card {
+    background-color: rgba(0, 0, 0, 0.374);
+    border-radius: 8px;
+    width: 95%;
+    height: 62px;
+    position: absolute;
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    bottom: 12px;
+}
+
+.pc-profile {
+    margin-left: 7px;
+    width: 48px;
+    height: 48px;
+    gap: 0;
+}
+
+.pc-info {
+    position: relative;
+    margin-bottom: 32px;
+    margin-left: 8px;
+}
+
+.pc-office {
+    position: relative;
+    font-size: 19px;
+    top: 23px;
+    font-weight: 600;
+}
+
+.pc-email {
+    font-size: 12px;
+    color: rgba(245, 244, 242, 0.653);
+}
+
+.pc-btn {
+    margin-left: 21%;
+    width: 68px;
+    height: 35px;
+    background-color: #fa191994;
+    border-radius: 8px;
+    border: none;
+}

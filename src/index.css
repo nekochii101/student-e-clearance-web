@@ -1,0 +1,242 @@
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  left: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+}
+
+
+
+/* Scrollbar width */
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+/* Track (background) */
+::-webkit-scrollbar-track {
+  background: rgba(33, 61, 245, 0.062);
+}
+
+/* Thumb (the draggable part) */
+::-webkit-scrollbar-thumb {
+  background: rgba(5, 227, 243, 0.833);
+}
+
+/* Thumb on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(31, 242, 228);
+}
+
+/* HIDE SCROLLBAR WHEN INACTIVE */
+.hide-scrollbar::-webkit-scrollbar {
+  width: 0;
+}
+
+.container{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+
+
+/* Admin Dashboard */
+
+.scroll-container {
+  height: 100vh;           /* full viewport height */
+  width: 100%;             /* full width */
+  overflow-y: auto; 
+  scrollbar-width: none;       /* vertical scrolling */
+  padding: 1rem;
+  border-radius: 0;        /* optional: remove rounding for full-page */
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(4px);
+  box-sizing: border-box;  /* keeps padding from messing with width */
+}
+
+.ad-container-a{
+  width:100%;
+  display: flex;
+  gap: 34px;
+  display: flex;
+  flex-direction: column;  
+  justify-content: center;
+  align-items: center;
+}
+.ad-content-a{
+  background: linear-gradient(to right, rgb(59, 157, 223) ,#aeceff, #9bbcee);
+  width: 100%;
+  height: 56px;
+  border-radius: 9px;
+  display: flex;
+  flex-direction: column;
+}
+
+.ad-header-a{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  top: 0px;
+  margin-left: 12px;
+}
+
+.ad-logo {
+  position: relative;
+  width: 38px;
+  height: auto;
+  margin-right: 4px;
+}
+
+.ad-profile{
+  width: 46px;
+  margin-left: 1120px;
+  position: relative;
+  cursor: pointer;
+  position: relative;
+  margin-bottom: 3px;
+}
+
+/* Container B */
+
+.ad-content-b{
+  background-color: rgba(28, 60, 108, 0.755);
+  width: 100%;
+  height: 56px;
+  border-radius: 9px;
+  display: flex;
+  justify-content:flex-start;
+  align-items: center;
+}
+
+.ad-header-b{
+  display: flex;
+  align-items: center;
+  align-content: center;
+}
+
+.ad-menu-btn {
+  width: 28px;
+  height: 28px;
+  margin-left: 8px;
+          filter: invert(100%) brightness(200%);
+
+}
+
+.ad-title-b{
+  margin-left: 8px;
+  font-size: 28px;
+  position: relative;
+  font-weight: 600;
+  margin-bottom: 29px;
+}
+
+.ad-dept-btn {
+  width: 84px;
+  height: 38px;
+  border-radius: 12px;
+  border: none;
+  background-color: white;
+  left: 23px;
+  margin-right: 48px;
+}
+
+.ad-dept{
+  display: flex;
+  margin-left: 123px;
+}
+.ad-dept-cont {
+  right: 72px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ad-dept-label{color: black;}
+
+
+
+/* Default Content */
+
+
+
+
+
+.ad-dept-logo {
+  width: 65px;
+  height: 65px;
+  border-radius: 50%;
+}
+
+.ad-dept-logo-a {
+  width: 64px;
+  height: auto;
+}
+
+
+
+.ad-dashboard-container {
+  /* background-color: rgba(90, 87, 87, 0.755); */
+  width: 100%;
+  height: 620px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ad-dashboard-default {
+  background-color: rgba(255, 255, 255, 0.755);
+  width: 95%;
+  height: 520px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 12px;
+  padding: 12px;
+}
+
+.ad-dashboard-default-overlay {
+  background-color:   rgba(161, 176, 201, 0.717);
+  width: 100%;
+  height: 620px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 12px;
+  padding: 12px;
+  margin-bottom: 23px;
+}
+
+.msg{
+  color: black;
+  font-size: 36px;
+}
+
+.illustration {
+  width: 683px;
+  position: relative;
+  margin-top: 136px;
+}

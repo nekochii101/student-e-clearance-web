@@ -1,0 +1,180 @@
+.ar-container-overlay {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-color: rgba(0, 0, 0, 0.5);
+      display: flex;
+      align-items: center;
+      justify-content: center;    
+      z-index: 0;  
+      overflow: auto;
+}
+
+.ar-container {
+        background: white;
+        padding: 18px;
+        border-radius: 8px;
+        width: 50%;
+        height: auto;
+}
+
+.ar-forms {
+    display: flex;
+    justify-content:flex-start;
+    flex-direction: column;
+}
+
+.ar-form-cluster {
+    display: flex;
+    flex-direction: column;
+}
+
+.ar-forms-header {
+    color: black;
+}
+
+.ar-ch-label {
+    color: black;
+    font-weight: 700;
+}
+
+.ar-label {
+    color: black;
+    font-weight: 700;
+}
+
+.ar-label input {
+    color: black;
+    background-color: rgba(9, 2, 32, 0.201);
+    width: 70%;
+    height: 23px;
+    outline: none;
+}
+
+.ar-textarea {
+    width: 95%;
+    height: 180px;
+    resize:none;
+    background-color: rgba(1, 1, 61, 0.121);
+    color: black;
+    padding: 8px;
+    font-size: 16px;
+    font-family:Arial, Helvetica, sans-serif;
+    outline: none;
+}
+
+.ar-req-selection {
+    color: rgb(3, 0, 17);
+    font-weight: 700;
+}
+
+.ar-req-selection select {
+    color: rgb(16, 16, 16);
+    margin-left: 34px;
+    background-color: aliceblue;
+    height: 23px;
+    outline: none;
+    width: 54%;
+}
+
+.ar-amount-due label {
+    color: black;
+    font-weight: 700;
+}
+
+.ar-amount-due input {
+    color: black;
+    margin-left: 83px;
+    background-color: aliceblue;
+    outline: none;
+        width: 53%;
+
+}
+
+.ar-amount-due b {
+    position: absolute;
+    margin-left: 68px;
+}
+
+.ar-checkbox {
+    display: flex;
+    flex-direction: row;
+}
+
+.ar-checkbox b {
+    color: black
+}
+
+.ar-checkbox-cluster {
+    color: black;
+    margin-left: 87px;
+}
+.ar-charcounter {
+    position: absolute;
+    bottom: 278px;
+    margin-left: 7px;
+}
+
+.ar-info {
+    color: black
+}
+
+.ar-link label {
+    color: black;
+    font-weight: 700;
+}
+
+.ar-link input {
+    color: black;
+    background-color: aliceblue;
+    margin-left: 147px;
+        width: 53%;
+
+}
+
+.ar-file label {
+    color: black;
+    font-weight: 700;
+}
+
+.ar-file input {
+    color: black;
+    margin-left: 105px;
+}
+
+.ar-action-btn-a{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.ar-action-btn-a button {
+    background-color: rgb(26, 89, 235);
+    width: 56px;
+    height: 28px;
+    border-radius: 8px;
+    outline: none;
+    border: none;
+}
+
+.ar-action-btn-b{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 23px;
+}
+
+.ar-action-btn-b button {
+    background-color: rgb(26, 235, 30);
+    width: 56px;
+    height: 28px;
+    border-radius: 8px;
+    outline: none;
+    border: none;
+}
+
+.ar-action-btn-b p {
+    margin-left: 8px;
+    font-size: 12px;
+}

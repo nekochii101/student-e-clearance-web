@@ -1,0 +1,146 @@
+
+
+.m-cont-scroll-view {
+    overflow:auto;
+    /* scrollbar-width: none; */
+    padding: 12px;
+    height: 80%;
+}
+
+.query-list-container{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color:   rgba(161, 176, 201, 0.717);
+    border: 1px solid rgba(0, 0, 0, 0.203);
+    border-radius: 8px;
+    
+}
+
+.m-const-infogroup{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.m-contlist-container {
+    display: flex;
+    justify-content:space-between;
+    flex-direction: row;
+    align-items: center;
+    background-color: rgba(18, 18, 18, 0.265);
+    width: 98%;
+    height: 48px;
+    padding: 6px;
+    position: relative;
+    margin-left: 6px;
+    border-radius: 8px;
+    margin-bottom: 8px;
+}   
+
+.sorting-container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 100%;
+
+}
+.m-contlist-profile  {
+    width: 39px;
+    margin-right: 6px;
+}
+
+.m-contlist-fname {
+    font-size: 32px;
+    width: 120;
+    margin-left: 23px;
+}
+
+.m-conlist-dept{
+    font-size: 18px;
+    margin-right: 20px;
+    padding: 8px;
+    border-radius: 8px;
+    color: #d6d3d3;
+    text-align: center;
+    background-color: rgba(29, 30, 31, 0.425);
+    width: 120;
+}
+
+.m-contlist-btn-edit{
+    width: 120px;
+    height: 42px;
+    margin-right: 23px;
+    font-size: 19px;
+    border-radius: 12px;
+    border-style: none;
+    background-color:#28d6f5;
+    color: black;
+}
+.m-contlist-btn-terminate{
+    width: 120px;
+    height: 42px;
+    margin-right: 23px;
+    font-size: 19px;
+    border-radius: 12px;
+    border-style: none;
+    background-color:#f53628;
+    color: rgb(238, 233, 233);
+}
+
+.rm-btn-group{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 35px;
+}
+
+.rm-btn-add-req{
+    width: 180px;
+    height: 42px;
+    margin-right: 23px;
+    font-size: 19px;
+    border-radius: 12px;
+    border-style: none;
+    background-color:#28f595;
+    color: black;
+    white-space: nowrap;
+}
+
+.rm-btn-add-terminate-all{
+    width: 120px;
+    height: 42px;
+    white-space: nowrap;
+    font-size: 19px;
+    border-radius: 12px;
+    border-style: none;
+    background-color:#f53628;
+    color: rgb(238, 233, 233);
+}
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
