@@ -7,7 +7,17 @@ import '../styles/NavigationModal.css';
 import DefaultProfile from '../assets/img/profile-default.png';
 import Logo from '../assets/img/occ-logo.png'
 import BackBTN from "../assets/img/btn-left-arrows.png";
-
+import ActLog from "../assets/img/ico-actlog.png";
+import Approved from "../assets/img/ico-approved.png";
+import AttachedFile from "../assets/img/ico-attachedfile.png";
+import AttachedLink from "../assets/img/ico-attachedlink.png";
+import CleaRance from "../assets/img/ico-clearance.png";
+import DecLined from "../assets/img/ico-declined.png";
+import Edit from "../assets/img/ico-edit.png";
+import PenDing from "../assets/img/ico-pending.png";
+import TermiNate from "../assets/img/ico-terminate.png";
+import TerminateAll from "../assets/img/ico-terminateall.png";
+import View from "../assets/img/ico-view.png";
 
 
 function NavigationModal({ openNavigation, setContent, onClose}) {
@@ -51,7 +61,7 @@ function NavigationModal({ openNavigation, setContent, onClose}) {
 
         <button onClick={QueueRequirements} className="nav-btn">Queue Requirements</button>
         <button onClick={Requirements} className="nav-btn">Requirements Manager</button>
-        <button onClick={ActivityLog} className="nav-btn">Activity Log</button>
+        <button onClick={ActivityLog} className="nav-btn"><div><img src={Actlog} /></div></button>
         <div>
           
         </div>
