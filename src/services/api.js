@@ -15,4 +15,8 @@ export const loginAPI = {
   logout: () => api.post('', {}, { params: { path: 'logout' } }),
 };
 
+export const getAdminDataAPI = {
+    getAdminData: () => api.get('', { params: { path: 'getAdminData' } }),  
+}
+
 export default api;

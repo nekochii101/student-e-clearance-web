@@ -9,7 +9,6 @@ import Logo from '../assets/img/occ-logo.png'
 import BackBTN from "../assets/img/btn-left-arrows.png";
 
 
-
 function NavigationModal({ openNavigation, setContent, onClose}) {
   if (!openNavigation) return null;
   const navigate = useNavigate();

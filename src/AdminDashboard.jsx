@@ -1,11 +1,8 @@
-import React, {useState} from 'react'
-
-
+import React, {useState} from 'react';
 import Logo from "./assets/img/occ-logo.png";
 import CITLogo from './assets/img/logo-cit.png';
 import CBALogo from './assets/img/cba-logo.png';
 import CTELogo from './assets/img/cte-logo.png';
-
 import MenuBTN from './assets/img/menu.png'
 import ProfileDefault from "./assets/img/profile-default.png";
 import AccountModal from './modals/AccountModal';
@@ -13,7 +10,8 @@ import NavigationModal from './modals/NavigationModal';
 import DefaultContent from './components/admin_contents/DefaultContent';
 import QueueRequirements from './components/admin_contents/QueueRequirements';
 import RequirementsMan from './components/admin_contents/RequirementsMan';
-import ActivityLog from './components/admin_contents/ActivityLog'
+import ActivityLog from './components/admin_contents/ActivityLog';
+import { getAdminDataAPI } from './services/api';
 
 function AdminDashboard() {
     const [openAccount, setOpenAccount] = useState(false);
