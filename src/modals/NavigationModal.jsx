@@ -19,7 +19,6 @@ import TermiNate from "../assets/img/ico-terminate.png";
 import TerminateAll from "../assets/img/ico-terminateall.png";
 import View from "../assets/img/ico-view.png";
 
-
 function NavigationModal({ openNavigation, setContent, onClose}) {
   if (!openNavigation) return null;
   const navigate = useNavigate();
