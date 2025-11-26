@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 
+import { loginAPI } from "../services/api";
+
 import Logo from "../assets/img/occ-logo.png";
 import "../styles/LoginForm.css";
 
@@ -9,9 +11,24 @@ function RegistrationForm() {
   const [password, setPassword] = useState("");
   const navigate = useNavigate();
 
- const handleLogin = () =>{
-  navigate('/admindashboard') 
- }
+ const handleLogin = (e) => {
+  e.preventDefault();
+
+  loginAPI
+    .login({ email, password })
+    .then((res) => {
+      if (res.data?.success) {
+        // user is authenticated on the backend (session is active)
+        navigate("/admindashboard");
+      } else {
+        alert(res.data?.error || "Login failed");
+      }
+    })
+    .catch((err) => {
+      alert(err.response?.data?.error || "Login request failed");
+    });
+};
+
 
   return (
     <div className="login-opacity">
@@ -32,17 +49,21 @@ function RegistrationForm() {
           <h1 className="header">Admin Login</h1>
           <form onSubmit={handleLogin}>
             <div className="forms">
-              <label className="f-label">Email</label>
+              <label className="f-label"
+              >Email</label>
               <input
                 type="email"
                 className="inputs"
-              
+                value={email}
+                onChange={(e) => setEmail(e.target.value)}
               />
               <br />
               <label className="f-label">Password</label>
               <input
                 type="password"
                 className="inputs"
+                value={password}
+                onChange={(e) => setPassword(e.target.value)}
               />
               <br />
               <button className="btn" type="submit">
